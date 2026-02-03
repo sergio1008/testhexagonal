@@ -1,6 +1,6 @@
 package com.serbernal.ports.inbound;
 
-public interface UseCase <IN, OUT>{
+public interface UseCase <In, Out>{
 
-    OUT execute(IN in);
+    Out execute(In in);
 }

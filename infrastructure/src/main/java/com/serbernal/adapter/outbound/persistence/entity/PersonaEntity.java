@@ -22,6 +22,9 @@ public class PersonaEntity {
 
     private int age;
 
+    public PersonaEntity() {
+    }
+
     public Long getId() {
         return id;
     }
